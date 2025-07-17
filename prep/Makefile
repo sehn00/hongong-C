@@ -13,7 +13,7 @@ all: $(TARGETS)
 $(TARGETS):
 	@mkdir -p $(BIN_DIR)
 	$(CC) $(CFLAGS) $(SRC_DIR)/$@.c -o $(BIN_DIR)/$@
-	@echo "Running $@ ..."
+	@echo "Running $@ ...\n"
 	@./$(BIN_DIR)/$@
 
 clean:
