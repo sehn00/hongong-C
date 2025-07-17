@@ -5,6 +5,7 @@ int main()
 {
     char fruit[20] = "strawberry";
     // char 배열 = 문자열을 저장하는 변수의 역할! (%s 형식지정자 사용)
+    // 배열 최소 크기 = 문자 개수 + 1(문자열 끝에 null문자 \0 항상 붙으므로)
 
     printf("딸기: %s\n", fruit);
     printf("딸기잼: %s %s\n", fruit, "jam");
