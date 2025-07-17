@@ -53,3 +53,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+
+# template 외 추가
+bin/
