@@ -55,5 +55,6 @@ dkms.conf
 *.dwo
 
 
-# template 외 추가
-bin/
+### template 외 추가
+# 모든 경로, 깊이의 bin 디렉터리 무시
+**/bin/
