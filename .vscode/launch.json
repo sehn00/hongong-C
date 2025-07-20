@@ -17,6 +17,11 @@
                     "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
+                },
+                {
+                    "description": "Skip debugging of shared libraries",
+                    "text": "set skip-solib-debugging on",
+                    "ignoreFailures": true
                 }
             ]
         }
