@@ -12,7 +12,7 @@ int main()
 void fruit(int cnt)
 {
     printf("apple\n");
-    if (cnt == 3)
+    if (cnt == 3)       // 세번 호출되는 재귀호출 함수
         return;
-    fruit(cnt + 1);
+    fruit(cnt + 1);     // cnt++ 은 안된다! 실행된 후 마지막에 ++되니까..
 }
