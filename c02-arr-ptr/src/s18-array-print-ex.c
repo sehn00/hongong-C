@@ -6,7 +6,7 @@ int main()
 {
     int i;
     double ary[5] = { 1.0, 2.0, 3.0, 4.0, 5.0 };
-    double* pb = &ary[2];
+    double *pb = &ary[2];
 
     for (i = 0; i < 3; i++)
     {
