@@ -17,3 +17,9 @@ int main()
     
     return 0;
 }
+
+// (추가)
+// scanf 에서 ctrl+Z 를 입력하면 >> -1 을 반환한다!
+// - 표준입력함수(scanf, getchar, fgetc 등)는 더이상 읽을 데이터가 없을때 EOF(End Of File)을 리턴
+// - EOF 는 매크로상수 -1 로 정의됨 (#define EOF (-1))
+// - ch = scanf("%c", &input);   >> 여기서 ctrl+Z 누르면? ch = -1 이 되고 입력 종료
