@@ -21,7 +21,7 @@ int main()
             break;                      // end가 입력되면 반복 종료
 
         str[i] = (char *)malloc(strlen(tmp) + 1);   // 문자열 저장공간 할당
-        // 좌변 == 포인터배열의 요소, 즉 주소 | 우변 == char*형 포인터, 즉 주소
+        // 좌변 == 포인터배열의 요소, 즉 주소  //  우변 == char*형 포인터, 즉 주소
 
         strcpy(str[i], tmp);    // str[i]에, 입력받아서 임시로 저장했던 tmp를 복사해서 넣음
         i++;
