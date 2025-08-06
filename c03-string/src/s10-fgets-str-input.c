@@ -21,7 +21,7 @@ int main()
 // 입력을 엔터로 마무리하면, str 배열 안에 '\n'이 그대로 들어가고, 끝에 '\0'이 붙음
 // 'abc def 엔터'를 입력하면, str 배열에는 ['a','b','c',' ','d','e','f','\n','\0'] 가 들어감
 // 보통 마지막의 '\n'을 지워줘야한다!
-//  => str[strcspn(str, "\n")] = '\0';      ...s00 에서 다룸!
+//  => str[strcspn(str, "\n")] = '\0';      ...s18 에서 다룸!
 //     (제일 앞 str = 배열 이름; stdcspn = string complement span; #include <string.h> 필요)
 
 // scanf("%s") 에서는, '\n'이 str 배열에 안들어가고 버퍼에 남아있는다!
