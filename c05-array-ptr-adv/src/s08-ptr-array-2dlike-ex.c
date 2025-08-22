@@ -10,10 +10,8 @@ int main()
 
     int *pary[3] = { ary_1, ary_2, ary_3 };
 
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 4; j++) {
             printf("%4d", pary[i][j]);  // 2차원 배열처럼 출력!
                                         // pary[0] == ary_1;  pary[0][0] == ary_1[0];
         }

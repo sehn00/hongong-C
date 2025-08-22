@@ -19,8 +19,7 @@ void print_ary(int *pa, int size)   // print_ary() 함수 구현하기!
 {
     int i;
 
-    for (i = 0; i < size; i++)
-    {
+    for (i = 0; i < size; i++) {
         printf("%d ", pa[i]);
     }
 }

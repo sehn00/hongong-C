@@ -11,8 +11,7 @@ int main()
     pary[3] = "tiger";
     pary[4] = "lion";
 
-    for (i = 0; i < 5; i++)
-    {
+    for (i = 0; i < 5; i++) {
         printf("%s\n", pary[i]);
     }
 

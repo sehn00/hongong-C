@@ -14,14 +14,12 @@ int main()
 
     // 두 방법으로 선언한 2차원 char배열 각각 출력하기
     int i;
-    for (i = 0; i < 4; i++)
-    {
+    for (i = 0; i < 4; i++) {
         printf("%s ", animal_1[i]);     // 출력: dog cat rabbit bear
     }
     printf("\n");
 
-    for (i = 0; i < 4; i++)
-    {
+    for (i = 0; i < 4; i++) {
         printf("%s ", animal_2[i]);     // 출력: dog cat rabbit bear
     }
     printf("\n");

@@ -11,8 +11,7 @@ int main(void)
     printf("세 번째 배열 요소 입력: ");
     scanf("%d", ary + 2);           // scanf("%d", ary[2]);
 
-    for (i = 0; i < 3; i++)
-    {
+    for (i = 0; i < 3; i++) {
         printf("%5d", *(ary + i));  // printf("%5d", ary[i]);
     }
     printf("\n");

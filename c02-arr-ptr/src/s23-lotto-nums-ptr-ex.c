@@ -21,19 +21,15 @@ void input_nums(int *lotto_nums)
 {
     int i, j, num, duplicated;
     
-    for (i = 0; i < 6; i++)
-    {
-        do
-        {
+    for (i = 0; i < 6; i++) {
+        do {
             duplicated = 0;
             printf("번호 입력: ");
             scanf("%d", &num);
 
             // 중복 체크
-            for (j = 0; j < i; j++)
-            {
-                if (num == lotto_nums[j])
-                {
+            for (j = 0; j < i; j++) {
+                if (num == lotto_nums[j]) {
                     printf("같은 번호가 있습니다!\n");
                     duplicated = 1;
                     break;
@@ -51,8 +47,7 @@ void print_nums(int *lotto_nums)
     int i;
 
     printf("로또 번호: ");
-    for (i = 0; i < 6; i++)
-    {
+    for (i = 0; i < 6; i++) {
         printf("%d  ", lotto_nums[i]);
     }
     printf("\n");

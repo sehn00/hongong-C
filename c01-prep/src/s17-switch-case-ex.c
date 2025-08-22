@@ -4,8 +4,7 @@ int main()
 {
     int rank = 2, m = 0;
 
-    switch (rank)
-    {
+    switch (rank) {
         case 1:         // rank가 1 일때
             m = 300;
             break;

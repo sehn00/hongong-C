@@ -13,15 +13,13 @@ int main()
 
     int len = strlen(input);    // len 대신 sizeof 는 쓰면 안된다! sizeof 는 배열 전체 크기..
 
-    if (len > 15)
-    {
+    if (len > 15) {
         printf("단어의 최대 길이는 15자입니다.\n");
         return 1;       // 종료 상태 코드(exit code)를 OS 에 전달! 비정상 종료를 알림
         // Error 메시지 보기싫으면 그냥 return 0 해도돼...
     }
 
-    for (int i = 0; i < len; i++)
-    {
+    for (int i = 0; i < len; i++) {
         if (i < 5)
             masked[i] = input[i];
         else

@@ -17,8 +17,7 @@ int main()
 
 void print_str(char **pps, int cnt)     // 이중포인터로 접근
 {
-    for (int i = 0; i < cnt; i++)
-    {
+    for (int i = 0; i < cnt; i++) {
         printf("%s\n", pps[i]);     // ptr_ary[0], ptr_ary[1], ... 등을 출력! 문자열이 출력된다
     }
 }

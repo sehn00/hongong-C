@@ -16,8 +16,7 @@ void my_gets(char *str, int size)
 {
     int ch, i;
 
-    for (i = 0; i < size - 1; i++)      // 문자열 배열 크기 - 1 만큼 입력 (널문자 공간 남겨놓기)
-    {
+    for (i = 0; i < size - 1; i++) {     // 문자열 배열 크기 - 1 만큼 입력 (널문자 공간 남겨놓기)
         ch = getchar();     // s01에서 했지만, getchar() 의 리턴값은 int형이다!
         if (ch == '\n')      // 엔터 치면 '입력 종료'로 판단
             break;

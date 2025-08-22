@@ -7,23 +7,20 @@ int main()
     int num, size = 5, cnt = 0;
 
     pi = (int *)calloc(size, sizeof(int));      // calloc(): 할당한 공간을 0 으로 초기화
-    while (1)
-    {
+    while (1) {
         printf("양수만 입력하세요: ");
         scanf("%d", &num);
         
         if (num <= 0)
             break;
-        if (cnt == size)
-        {
+        if (cnt == size) {
             size += 5;
             pi = (int *)realloc(pi, size * sizeof(int));    // realloc(): 저장공간 크기 조정
         }
         pi[cnt++] = num;
     }
 
-    for (int i = 0; i < cnt; i++)
-    {
+    for (int i = 0; i < cnt; i++) {
         printf("%4d", pi[i]);
     }
     printf("\n");

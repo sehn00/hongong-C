@@ -14,10 +14,8 @@ int main()
 
     pa = ary;   // pa에 ary의 시작주소 저장
 
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 4; j++) {
             printf("%4d", pa[i][j]);
             // i=0 일때, j++ 되면서 ary[0] = { 1, 2, 3, 4, } 의 원소가 출력된다!
         }

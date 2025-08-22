@@ -21,8 +21,7 @@ void input_ary(double *pa, int size)
     int i;
 
     printf("%d개의 실수값 입력: ", size);     // '''1.0 2.0 3.0 4.0 5.0''' 으로 입력해도
-    for (i = 0; i < size; i++)              // pa[0]=1.0, pa[1]=2.0 ... 으로 처리된다!
-    {
+    for (i = 0; i < size; i++) {            // pa[0]=1.0, pa[1]=2.0 ... 으로 처리된다!
         scanf("%lf", &pa[i]);   // &pa[i] = pa + i 와 동일
     }
 }
@@ -33,8 +32,7 @@ double find_max(double *pa, int size)
     int i;
 
     max = pa[0];    // max를 pa[0] 으로 일단 설정하고, 다음 배열 요소와 비교해서 max 찾는다!
-    for (i = 0; i < size; i++)
-    {
+    for (i = 0; i < size; i++) {
         if (max < pa[i])
             max = pa[i];
     }

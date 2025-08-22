@@ -6,14 +6,10 @@ int main()
     printf("정수 a, b를 입력하시오: ");
     scanf("%d%d", &a, &b);
 
-    if (a > 10)
-    {
-        if (b >= 0)
-        {
+    if (a > 10) {
+        if (b >= 0) {
             b = 1;
-        }
-        else
-        {
+        } else {
             b = -1;
         }
     }

@@ -2,8 +2,7 @@
 
 int main(int argc, char **argv)     // "명령행 인수"를 받을 매개변수
 {
-    for (int i = 0; i < argc; i++)
-    {
+    for (int i = 0; i < argc; i++) {
         printf("%s\n", argv[i]);
     }
 

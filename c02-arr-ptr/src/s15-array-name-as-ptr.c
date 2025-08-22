@@ -10,8 +10,7 @@ int main()
     *(pa + 1) = 20;     // ary[1] = 20
     pa[2] = pa[0] + pa[1];
 
-    for (i = 0; i < 3; i++)
-    {
+    for (i = 0; i < 3; i++) {
         printf("%5d", pa[i]);   // pa[i] 대신: ary[i], *(ary + i), *(pa + i) 다 가능하다!
     }
     printf("\n");

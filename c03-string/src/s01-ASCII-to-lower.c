@@ -4,8 +4,7 @@ int main(void)
 {
     char small, cap = 'G';
 
-    if ((cap >= 'A') && (cap <= 'Z'))
-    {
+    if ((cap >= 'A') && (cap <= 'Z')) {
         small = cap + ('a' - 'A');      // ASCII 코드 차이를 이용해서 소문자로 변환
     }
 
