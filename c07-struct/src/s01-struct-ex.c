@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-// 전역에서 쓰려면, 일반적으로 main() 위에서 구조체 정의! (프로토타입 x)
-struct student      // student 구조체 선언
-{
+// 전역에서 쓰려면, main() 위에서 구조체 정의! (프로토타입 x)
+struct student {    // student 구조체 선언
     int num;        // 구조체의 첫번째 멤버
     double grade;   // 구조체의 두번째 멤버
 };              // 세미콜론 빼먹지말기!
