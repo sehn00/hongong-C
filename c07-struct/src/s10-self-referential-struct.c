@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 
-struct node     // 자기 참조 구조체 (Linked List에서의 Node)
-{
+struct node {    // 자기 참조 구조체 (Linked List에서의 Node)
     int num;            // int형 데이터를 저장하는 멤버 num
     struct node *next;  // 다음 노드(구조체, 즉 자기자신 타입)을 가리키는 포인터 멤버 next
 };

@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-struct score
-{
+struct score {
     int kor;
     int eng;
     int math;

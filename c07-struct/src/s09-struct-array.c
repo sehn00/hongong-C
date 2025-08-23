@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-struct address
-{
+struct address {
     char name[20];
     int age;
     char tel[20];

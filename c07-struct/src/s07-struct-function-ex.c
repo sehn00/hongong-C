@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-struct vision       // 시력을 저장할 구조체 선언
-{
+struct vision {      // 시력을 저장할 구조체 선언
     double left;    // 왼쪽눈 시력
     double right;   // 오른쪽눈 시력
 };
@@ -22,8 +21,7 @@ int main()
     return 0;
 }
 
-struct vision exchange(struct vision robot)
-{
+struct vision exchange(struct vision robot) {
     double tmp;
 
     tmp = robot.left;

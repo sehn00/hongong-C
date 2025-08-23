@@ -8,7 +8,7 @@ struct student {    // student 구조체 선언
 
 int main()
 {
-    struct student s1;
+    struct student s1;  // struct student 가 int같은 새로운 자료형이 된다!
     
     s1.num = 20231234;      // s1의 num 멤버에 20231234 저장
     s1.grade = 4.33;        // s1의 grade 멤버에 4.33 저장
@@ -22,4 +22,12 @@ int main()
 // 학번: 20231234
 // 학점: 4.33
 
-//////////////// 주석 더 달고 복습하기!
+/* < 다른 방식 >>> 보통 이게 권장된다!
+    typedef struct {
+        int num;
+        double grade;
+    } student;
+    ...
+    student s1;    // 으로 사용
+    ...
+*/
