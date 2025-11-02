@@ -30,8 +30,8 @@ int main()
 }
 
 // 함수 원형:
-//  - void *calloc(usinged int, unsigned int);
-//  - void *realloc(void *, unsigned int);
+//  - void *calloc(size_t nmemb, size_t size);    // nmemb = # of members
+//  - void *realloc(void *ptr, size_t size);
 
 // calloc()
 //  - 배열요소 개수와, 요소 하나의 byte크기를 받아서, void*형 포인터 반환!
