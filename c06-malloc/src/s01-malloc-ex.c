@@ -32,7 +32,7 @@ int main()
 // malloc() 과 free() 는 어떻게 굴러가는가....
 
 // 함수 원형:
-//  - void *malloc(unsigned int size);
+//  - void *malloc(size_t size);
 //  - void free(void *p);
 
 // malloc이 반환하는 (void *)형포인터를
